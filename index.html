@@ -17,11 +17,63 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
-    <!-- font awesome icon -->
-    <script
-      src="https://kit.fontawesome.com/dc91f1a485.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
   </head>
-  <body></body>
+  <body class="manrope-font">
+    <main class="max-w-7xl m-auto">
+      <!-- banner section start -->
+      <section class="md:flex justify-between">
+        <!-- banner text content -->
+        <div>
+          <h1 class="text-[#1C1C1C] text-7xl font-extrabold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p class="text-[#777777] text-base w-3/4 font-medium pt-7 pb-4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="bg-gradient-to-r from-orange-500 to-red-500 px-4 py-3 rounded-lg text-white md:font-bold"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right text-lg -rotate-45"></i>
+          </button>
+        </div>
+        <!-- banner Image -->
+        <div class="relative">
+          <div>
+            <img
+              class="max-w-full"
+              src="./images/banner.png"
+              alt="Banner Image"
+            />
+          </div>
+          <!-- image rating -->
+          <div
+            class="absolute flex items-center bg-white shadow-md py-3 px-5 rounded-xl bottom-8 left-28"
+          >
+            <!-- icon -->
+            <div>
+              <i class="fa-solid fa-star text-amber-500 text-2xl"></i>
+            </div>
+            <!-- content -->
+            <div class="ml-3">
+              <h2 class="font-extrabold text-xl">5.00</h2>
+              <p class="text-gray-500">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
